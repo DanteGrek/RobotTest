@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20170818 12:50:23.285" generator="Robot 3.0.2 (Python 2.7.12 on linux2)">
+<suite source="/home/osolomin/PycharmProjects/RobotTest/test.robot" id="s1" name="Test">
+<test id="s1-t1" name="Browser test">
+<kw name="Open Chrome" library="Browser">
+<arguments>
+<arg>http://www.google.com.ua</arg>
+</arguments>
+<msg timestamp="20170818 12:50:26.907" level="INFO">Checking for linux64 chromedriver:2.31 in cache
+Driver found in /home/osolomin/.wdm/chromedriver/2.31/chromedriver</msg>
+<status status="PASS" endtime="20170818 12:50:26.907" starttime="20170818 12:50:23.360"></status>
+</kw>
+<kw name="Close Browser" library="Browser">
+<status status="PASS" endtime="20170818 12:50:26.961" starttime="20170818 12:50:26.908"></status>
+</kw>
+<status status="PASS" endtime="20170818 12:50:26.961" critical="yes" starttime="20170818 12:50:23.360"></status>
+</test>
+<doc>This is the test</doc>
+<status status="PASS" endtime="20170818 12:50:26.962" starttime="20170818 12:50:23.286"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Test" pass="1">Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
